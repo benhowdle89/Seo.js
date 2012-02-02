@@ -6,7 +6,8 @@ $(document).ready(function(){
 		'border' : '1px solid #222',
 		'position' : 'absolute',
 		'top' : '10px',
-		'right' : '10px'
+		'right' : '10px',
+		'z-index' : '10000'
     }
     
     var childCssObj = {
