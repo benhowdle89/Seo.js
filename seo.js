@@ -46,7 +46,7 @@ $(document).ready(function(){
 		$(altsValue[i].css('border', '5px solid red'));
 	}
 
-	var alt = '<p><strong>Missing Alts</strong>: Outlined in red borders</p>';
+	var alt = '<p><strong>Missing Image Alts</strong>: Outlined in red borders</p>';
 	
 	var imageTitleValue = Array();
 	
