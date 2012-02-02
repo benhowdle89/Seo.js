@@ -18,7 +18,7 @@ $(document).ready(function(){
 	$('body').append(seoPanel);
 	seoPanel.css(mainCssObj);
 	
-	seoPanel.append('<p><strong style="text-align: center;">SEOjs - Overview of SEO</strong></p>');
+	seoPanel.append('<p style="text-align: center;><strong">SEOjs - Overview of SEO</strong></p>');
 	
 	var h1Value = $('h1:first').text();
 	var h1 = '<p><strong>H1</strong>: ' + h1Value + '</p>';
