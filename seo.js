@@ -10,7 +10,7 @@ $(document).ready(function(){
     }
     
     var childCssObj = {
-    	'margin' : '10px auto'
+    	'margin' : '10px auto',
     }
     
 	var seoPanel = $('<div id="seo-panel"></div>');
@@ -77,5 +77,8 @@ $(document).ready(function(){
 	
 	seoPanel.append(h1, title, alt, imageTitle, metaDesc, metaKeywords);
 	
+	seoPanel.append('<p><small>Made by <a href="http://twostepmedia.co.uk" target="_BLANK">Ben Howdle</a></small></p>');
+	
 	seoPanel.children('p').css(childCssObj);
+	
 });
