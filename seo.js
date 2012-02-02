@@ -4,7 +4,7 @@ $(document).ready(function(){
 		'color' : '#444',
 		'width' : '200px',
 		'border' : '1px solid #222',
-		'position' : 'fixed',
+		'position' : 'absolute',
 		'top' : '10px',
 		'right' : '10px'
     }
